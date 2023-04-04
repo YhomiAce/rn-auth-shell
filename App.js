@@ -1,10 +1,10 @@
-import { StyleSheet, Text, View } from "react-native";
-import SignInScreen from "./src/screens/SignIn";
+import { StyleSheet, View } from "react-native";
+import Navigation from "./src/navigation";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <SignInScreen />
+      <Navigation />
     </View>
   );
 }
